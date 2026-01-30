@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tendayi Ruka - Links</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;1,300&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --color-matcha-dark: #3A4F1E;
+        --color-matcha-mid: #5F8232;
+        --color-matcha-light: #8BA855;
+        --color-cream: #F2F0E6;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: 'Space Mono', monospace;
+        background: linear-gradient(to bottom, var(--color-matcha-dark), #233012);
+        color: var(--color-cream);
+        min-height: 100vh;
+        padding: 2rem 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .container {
+        max-width: 500px;
+        width: 100%;
+      }
+
+      .profile {
+        text-align: center;
+        margin-bottom: 3rem;
+      }
+
+      .profile-name {
+        font-family: 'Fraunces', serif;
+        font-size: 3rem;
+        font-style: italic;
+        font-weight: 300;
+        margin-bottom: 0.5rem;
+      }
+
+      .profile-tagline {
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.15em;
+        opacity: 0.8;
+      }
+
+      .link-card {
+        background: rgba(242, 240, 230, 0.08);
+        border: 1px solid rgba(242, 240, 230, 0.2);
+        border-radius: 12px;
+        padding: 1.5rem;
+        margin-bottom: 1rem;
+        text-decoration: none;
+        color: var(--color-cream);
+        display: block;
+        transition: all 0.3s ease;
+        backdrop-filter: blur(10px);
+      }
+
+      .link-card:hover {
+        background: rgba(242, 240, 230, 0.15);
+        transform: translateY(-2px);
+      }
+
+      .link-title {
+        font-size: 1.1rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+
+      .link-description {
+        font-size: 0.85rem;
+        opacity: 0.8;
+        line-height: 1.5;
+      }
+
+      .social-links {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 3rem;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+      }
+
+      .social-links a {
+        color: var(--color-cream);
+        text-decoration: none;
+        opacity: 0.7;
+        transition: opacity 0.3s;
+      }
+
+      .social-links a:hover {
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="profile">
+        <div class="profile-name">Tendayi</div>
+        <div class="profile-tagline">Beauty Tech • Strategy • Ventures</div>
+      </div>
+
+      <a href="/" class="link-card">
+        <div class="link-title">Full Portfolio</div>
+        <div class="link-description">Explore my work in consumer strategy and advisory</div>
+      </a>
+
+      <a href="/#contact" class="link-card">
+        <div class="link-title">Advisory Inquiry</div>
+        <div class="link-description">Get in touch for strategic consulting</div>
+      </a>
+
+      <a href="mailto:hello@rukahair.com" class="link-card">
+        <div class="link-title">Book a Keynote</div>
+        <div class="link-description">Speaking engagements and thought leadership</div>
+      </a>
+
+      <a href="https://rukahair.com" class="link-card">
+        <div class="link-title">Ruka Hair</div>
+        <div class="link-description">My consumer brand in the beauty tech space</div>
+      </a>
+
+      <div class="social-links">
+        <a href="#">LinkedIn</a>
+        <a href="#">Twitter/X</a>
+      </div>
+    </div>
+  </body>
+</html>
